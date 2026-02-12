@@ -16,6 +16,7 @@ Variables capture both clinical and administrative aspects of each encounter, en
 
 ![](images/overview_head.png)
 
+missing values:
 ![](images/missing_values.png)
 
 ---
@@ -58,7 +59,7 @@ Model interpretation further revealed that structured clinical variables alone p
 
 The decision tree feature importance analysis reinforced these observations by emphasizing utilization history and demographic risk indicators over laboratory values or individual diagnosis codes. This suggests that patient behavior patterns and care pathways may be as important as clinical measurements in predicting short-term readmission risk.
 
-![](images/feature_importance.png)
+![](images/features_importance.png)
 
 ---
 
