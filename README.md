@@ -15,7 +15,6 @@ The dataset originates from the **UCI Machine Learning Repository – Diabetes 1
 Variables capture both clinical and administrative aspects of each encounter, enabling analysis of patterns associated with early readmission risk. The original readmission variable was transformed into a binary outcome indicating whether a patient was readmitted within 30 days, allowing for supervised predictive modeling.
 
 ![](images/overview_head.png)
-
 missing values:
 ![](images/missing_values.png)
 
@@ -43,9 +42,7 @@ The dataset displayed strong class imbalance, with early readmissions representi
 
 Although predictive performance was moderate, the modeling pipeline demonstrates a reproducible workflow for healthcare risk modeling. The results highlight both the challenges of predicting clinical outcomes using structured administrative data alone and the importance of integrating additional patient context for improved accuracy.
 
-![](images/roc_curve_logreg.png)
-
-![](images/roc_curve_dt.png)
+![](images/roc_curve_logreg.png)    ![](images/roc_curve_dt.png)
 
 ---
 
