@@ -16,7 +16,7 @@ Variables capture both clinical and administrative aspects of each encounter, en
 
 ![](images/overview_head.png)
 
-![images](missing_values.png)
+![](images/missing_values.png)
 
 ---
 
@@ -30,7 +30,7 @@ Variables capture both clinical and administrative aspects of each encounter, en
 
 Modeling approaches included Logistic Regression as a baseline linear classifier and a Decision Tree model to capture potential non-linear relationships and provide interpretable feature importance. The workflow covered data cleaning, missing value handling, feature engineering, model training, ROC-based evaluation, and export of prediction outputs for further analysis.
 
-![images](features_engineering.png)
+![](images/feature_engineering.png)
 
 ---
 
@@ -42,9 +42,9 @@ The dataset displayed strong class imbalance, with early readmissions representi
 
 Although predictive performance was moderate, the modeling pipeline demonstrates a reproducible workflow for healthcare risk modeling. The results highlight both the challenges of predicting clinical outcomes using structured administrative data alone and the importance of integrating additional patient context for improved accuracy.
 
-![images](roc_curve_logreg.png)
+![](images/roc_curve_logreg.png)
 
-![images](roc_curve_dt.png)
+![](images/roc_curve_dt.png)
 
 ---
 
@@ -58,7 +58,7 @@ Model interpretation further revealed that structured clinical variables alone p
 
 The decision tree feature importance analysis reinforced these observations by emphasizing utilization history and demographic risk indicators over laboratory values or individual diagnosis codes. This suggests that patient behavior patterns and care pathways may be as important as clinical measurements in predicting short-term readmission risk.
 
-![images](feature_importance.png)
+![](images/feature_importance.png)
 
 ---
 
