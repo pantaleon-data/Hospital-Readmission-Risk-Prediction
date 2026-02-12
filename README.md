@@ -14,7 +14,7 @@ The dataset originates from the **UCI Machine Learning Repository – Diabetes 1
 
 Variables capture both clinical and administrative aspects of each encounter, enabling analysis of patterns associated with early readmission risk. The original readmission variable was transformed into a binary outcome indicating whether a patient was readmitted within 30 days, allowing for supervised predictive modeling.
 
-![images](overview_head.png)
+![](images/overview_head.png)
 
 ![images](missing_values.png)
 
