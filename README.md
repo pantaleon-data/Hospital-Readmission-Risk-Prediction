@@ -30,7 +30,7 @@ Variables capture both clinical and administrative aspects of each encounter, en
 
 Modeling approaches included Logistic Regression as a baseline linear classifier and a Decision Tree model to capture potential non-linear relationships and provide interpretable feature importance. The workflow covered data cleaning, missing value handling, feature engineering, model training, ROC-based evaluation, and export of prediction outputs for further analysis.
 
-![images](feature_engineering.png)
+![images](features_engineering.png)
 
 ---
 
