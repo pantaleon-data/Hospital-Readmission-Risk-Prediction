@@ -42,7 +42,7 @@ The dataset displayed strong class imbalance, with early readmissions representi
 
 Although predictive performance was moderate, the modeling pipeline demonstrates a reproducible workflow for healthcare risk modeling. The results highlight both the challenges of predicting clinical outcomes using structured administrative data alone and the importance of integrating additional patient context for improved accuracy.
 
-![](images/roc_curve_logreg.png)    ![](images/roc_curve_dt.png)
+![](images/roc_curve_lgoreg.png)    ![](images/roc_curve_dt.png)
 
 ---
 
